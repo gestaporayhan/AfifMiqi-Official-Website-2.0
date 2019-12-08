@@ -1,0 +1,254 @@
+
+.red-sec {
+  background-color:#212529;
+  position:relative;
+  padding:0 50px 200px 50px;
+  color:#fff;
+  margin-top:-35px;
+  box-shadow:0px 8px #2E2E2E;
+  height: 150%;
+}
+
+.style-class {
+  padding-bottom:20px;
+}
+
+.btn{
+  background-color: #2E2E2E;
+  /* text-transform: uppercase; */
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(221, 214, 214);
+  /* text-transform: uppercase; */
+  color: #fff;
+  -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  cursor: pointer;
+}
+
+.btn-dark{
+  width: 100px;
+  height: 42px;
+}
+
+
+
+@media only screen and (min-width : 320px) {
+      .profile_picture {
+  width:160px;
+  height:150px;
+  border:.15em solid white;
+  margin-top:80px;
+}  
+.image-panel {
+  width:270px;
+  height:162px;
+}
+  .blog-btn-style {
+    clear:both;
+  }
+
+    }
+
+@media only screen and (min-width: 480px) {
+.profile_picture {
+  width:200px;
+  height:200px;
+  border:.3em solid white;
+  margin-top:100px;
+}
+.image-panel {
+  width:333px;
+  height:200px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width:768px) {
+.profile_picture {
+  width:300px;
+  height:300px;
+  border:.3em solid white;
+  margin-top:100px;
+}
+   .image-panel {
+  max-width:333px;
+  max-height:200px;
+}
+.red-sec{
+  height: 1050px;
+}
+.modal-content{
+  width: 100%;
+}
+.rowtitle h1{
+  font-size: 50px;
+}
+.rowabout h3{
+  font-size: 35px;
+  padding: 0 150px 0 150px;
+}
+.rowabout h4{
+  font-size: 25px;
+  padding: 0 120px 0 120px;
+}
+.icons a{
+  font-size: 18px;
+  letter-spacing: 10px;
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1024px) and (min-height:768px) {
+  .profile_picture {
+    width:270px;
+    height:270px;
+    border:.3em solid white;
+    margin-top:80px;
+  }
+     .image-panel {
+    max-width:333px;
+    max-height:300px;
+  }
+  .red-sec{
+    height: 800px;
+  }
+  .modal-content{
+    width: 100%;
+  }
+  .rowtitle h1{
+    font-size: 50px;
+  }
+  .rowabout h3{
+    font-size: 35px;
+    padding: 0 150px 0 150px;
+  }
+  .rowabout h4{
+    font-size: 25px;
+    padding: 0 150px 0 150px;
+  }
+  .icons a{
+    font-size: 18px;
+    letter-spacing: 10px;
+  }
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width:1024px) and (min-height:1024px) {
+    .profile_picture {
+      width:300px;
+      height:300px;
+      border:.3em solid white;
+      margin-top:80px;
+      margin-bottom:30px;
+    }
+       .image-panel {
+      max-width:333px;
+      max-height:300px;
+    }
+    .red-sec{
+      height: 1400px;
+    }
+    .modal-content{
+      width: 100%;
+    }
+    .rowtitle h1{
+      font-size: 65px;
+      margin-bottom: 20px;
+    }
+    .rowabout h3{
+      font-size: 45px;
+      padding: 0 150px 150px;
+      margin-bottom: 40px;
+    }
+    .rowabout h4{
+      font-size: 35px;
+      padding: 0 150px 0 150px;
+    }
+    .rowabout{
+      margin-bottom: 50px;
+    }
+    .icons a{
+      font-size: 25px;
+      letter-spacing: 20px;
+    }
+    }
+
+    @media only screen and (min-width: 1366px) and (max-width:1366px) and (min-height:1024px) {
+      .profile_picture {
+        width:300px;
+        height:300px;
+        border:.3em solid white;
+        margin-top:80px;
+        margin-bottom:30px;
+      }
+         .image-panel {
+        max-width:333px;
+        max-height:300px;
+      }
+      .red-sec{
+        height: 1050px;
+      }
+      .modal-content{
+        width: 100%;
+      }
+      .rowtitle h1{
+        font-size: 55px;
+        margin-bottom: 20px;
+      }
+      .rowabout h3{
+        font-size: 40px;
+        padding: 0 150px 150px;
+        margin-bottom: 40px;
+      }
+      .rowabout h4{
+        font-size: 30px;
+        padding: 0 150px 0 150px;
+      }
+      .rowabout{
+        margin-bottom: 50px;
+      }
+      .icons a{
+        font-size: 25px;
+        letter-spacing: 20px;
+      }
+      }
+
+.font-style-cursive {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 5px rgba(0,0,0,0.1);
+}
+
+i{
+margin:0px 13px;
+  color:#fff;
+      -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.fa-youtube:hover {
+  color:rgb(202, 18, 18);
+}
+.fa-instagram:hover {
+  color:rgb(228, 34, 99);
+}
+.fa-envelope-square{
+  cursor: pointer;
+}
+.fa-envelope-square:hover{
+  color: rgb(219, 196, 81);
+
+}
+
+span {
+  color:red
+}
+
+.group:before {
+  content: "";
+  display: table;
+  clear: both;
+}
