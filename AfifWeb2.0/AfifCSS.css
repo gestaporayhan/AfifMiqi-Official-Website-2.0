@@ -1,12 +1,31 @@
-
 .red-sec {
-  background-color:#212529;
   position:relative;
-  padding:0 50px 200px 50px;
+  padding:0 50px 50px 50px;
   color:#fff;
-  margin-top:-35px;
+  margin-top:-180px;
   box-shadow:0px 8px #2E2E2E;
-  height: 150%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.rowtitle h1{
+  padding-top: 550px;
+  font-size: 80px;
+}
+.rowabout h4{
+  font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+  font-size: 24px;
+  font-weight: 300;
+  width: 520px;
+  /* text-shadow: 0 5px rgba(0,0,0,0.1); */
+  
+}
+.rowabout h3{
+  font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 0 5px rgba(0,0,0,0.1);
 }
 
 .style-class {
@@ -15,14 +34,12 @@
 
 .btn{
   background-color: #2E2E2E;
-  /* text-transform: uppercase; */
   color: #fff;
   cursor: pointer;
 }
 
 .btn:hover{
   background-color: rgb(221, 214, 214);
-  /* text-transform: uppercase; */
   color: #fff;
   -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
@@ -38,186 +55,240 @@
 
 
 
-@media only screen and (min-width : 320px) {
-      .profile_picture {
-  width:160px;
-  height:150px;
-  border:.15em solid white;
-  margin-top:80px;
-}  
-.image-panel {
-  width:270px;
-  height:162px;
-}
-  .blog-btn-style {
-    clear:both;
-  }
-
-    }
-
-@media only screen and (min-width: 480px) {
-.profile_picture {
-  width:200px;
-  height:200px;
-  border:.3em solid white;
-  margin-top:100px;
-}
-.image-panel {
-  width:333px;
-  height:200px;
-}
-}
-
-@media only screen and (min-width: 768px) and (max-width:768px) {
-.profile_picture {
-  width:300px;
-  height:300px;
-  border:.3em solid white;
-  margin-top:100px;
-}
-   .image-panel {
-  max-width:333px;
-  max-height:200px;
-}
+@media only screen and (min-width : 320px) and (max-width : 360px) {
 .red-sec{
-  height: 1050px;
-}
-.modal-content{
-  width: 100%;
+  text-align: center;
+  background-size: cover;
+  margin-top:-50px;
+  height:740px
+  
 }
 .rowtitle h1{
-  font-size: 50px;
-}
-.rowabout h3{
+  padding-top: 260px;
   font-size: 35px;
-  padding: 0 150px 0 150px;
 }
 .rowabout h4{
+  font-size: 15px;
+  text-align: justify;
+  width: 100%;
+  padding-top: 0px;
+  text-shadow: rgb(167, 165, 165) 0px 0px 2px;
+  /* backdrop-filter: blur(15px);
+  backdrop-filter: opacity(0.2);
+  background-color: rgba(255, 255, 255, 0.726);  */
+}
+.rowabout h3{
+  font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+  margin-top: -5px;
   font-size: 25px;
-  padding: 0 120px 0 120px;
+}
+.icons{
+  margin-top: 10px;
 }
 .icons a{
-  font-size: 18px;
-  letter-spacing: 10px;
-}
+  font-size: 13px;
+  letter-spacing: 5px;
 }
 
-@media only screen and (min-width: 1024px) and (max-width:1024px) and (min-height:768px) {
-  .profile_picture {
-    width:270px;
-    height:270px;
-    border:.3em solid white;
-    margin-top:80px;
-  }
-     .image-panel {
-    max-width:333px;
-    max-height:300px;
-  }
+
+}
+
+@media only screen and (min-width : 375px) and (max-width : 480px) {
   .red-sec{
-    height: 800px;
-  }
-  .modal-content{
-    width: 100%;
+    text-align: center;
+    background-size: cover;
+    margin-top:-50px;
+    height:1000px
+    
   }
   .rowtitle h1{
-    font-size: 50px;
-  }
-  .rowabout h3{
-    font-size: 35px;
-    padding: 0 150px 0 150px;
+    padding-top: 360px;
+    font-size: 48px;
   }
   .rowabout h4{
-    font-size: 25px;
-    padding: 0 150px 0 150px;
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+    padding-top: 0px;
+    text-shadow: rgb(167, 165, 165) 0px 0px 2px;
+    /* backdrop-filter: blur(15px);
+    backdrop-filter: opacity(0.2);
+    background-color: rgba(255, 255, 255, 0.726);  */
+  }
+  .rowabout h3{
+    font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+    margin-top: -5px;
+    font-size: 35px;
+  }
+  .icons{
+    margin-top: 10px;
   }
   .icons a{
     font-size: 18px;
     letter-spacing: 10px;
   }
+  
+  
   }
 
-  @media only screen and (min-width: 1024px) and (max-width:1024px) and (min-height:1024px) {
-    .profile_picture {
-      width:300px;
-      height:300px;
-      border:.3em solid white;
-      margin-top:80px;
-      margin-bottom:30px;
-    }
-       .image-panel {
-      max-width:333px;
-      max-height:300px;
-    }
+@media only screen and (min-width: 480px) and (max-width:1000px) {
+.red-sec{
+  margin-top:-50px;
+  height: 1105px;
+}
+.modal-content{
+  width: 100%;
+}
+.rowtitle h1{
+  padding-top: 650px;
+  font-size: 60px;
+}
+
+.icons a{
+  font-size: 24px;
+  letter-spacing: 10px;
+}
+.icons{
+  margin-top: 10px;
+}
+.rowabout h4{
+  font-size: 28px;
+  text-align: justify;
+  width: 100%;
+  padding-top: 0px;
+  text-shadow: rgb(167, 165, 165) 0px 0px 2px;
+  /* backdrop-filter: blur(15px);
+  backdrop-filter: opacity(0.2);
+  background-color: rgba(255, 255, 255, 0.726);  */
+}
+.rowabout h3{
+  font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+  margin-top: -5px;
+  font-size: 35px;
+  padding: 10px 0 10px 0;
+}
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width:1024px) and (min-height:768px) {
+
+  .red-sec{
+    margin-top:-50px;
+    height: 1100px;
+  }
+  .modal-content{
+    width: 100%;
+  }
+  .rowtitle h1{
+    padding-top: 650px;
+    font-size: 70px;
+  }
+  
+  .icons a{
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  .rowabout h4{
+    font-size: 35px;
+    text-align: justify;
+    width: 90%;
+    padding-top: 0px;
+    text-shadow: rgb(167, 165, 165) 0px 0px 2px;
+    /* backdrop-filter: blur(15px);
+    backdrop-filter: opacity(0.2);
+    background-color: rgba(255, 255, 255, 0.726);  */
+  }
+  .rowabout h3{
+    font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+    margin-top: -5px;
+    font-size: 45px;
+    padding: 15px 0 15px 0;
+  }
+  .icons{
+    margin-top: 10px;
+  }
+  }
+
+@media only screen and (min-width: 1024px) and (max-width:1024px) and (min-height:1366px) {
+
     .red-sec{
-      height: 1400px;
+      margin-top:-50px;
+      height: 1450px;
     }
     .modal-content{
       width: 100%;
     }
     .rowtitle h1{
-      font-size: 65px;
-      margin-bottom: 20px;
+      padding-top: 800px;
+      font-size: 70px;
     }
-    .rowabout h3{
-      font-size: 45px;
-      padding: 0 150px 150px;
-      margin-bottom: 40px;
+    
+    .icons a{
+      font-size: 25px;
+      letter-spacing: 10px;
     }
     .rowabout h4{
       font-size: 35px;
-      padding: 0 150px 0 150px;
+      text-align: justify;
+      width: 90%;
+      padding-top: 0px;
+      text-shadow: rgb(167, 165, 165) 0px 0px 2px;
+      /* backdrop-filter: blur(15px);
+      backdrop-filter: opacity(0.2);
+      background-color: rgba(255, 255, 255, 0.726);  */
     }
-    .rowabout{
-      margin-bottom: 50px;
+    .rowabout h3{
+      font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+      margin-top: -5px;
+      font-size: 45px;
+      padding: 15px 0 15px 0;
     }
-    .icons a{
-      font-size: 25px;
-      letter-spacing: 20px;
+    .icons{
+      margin-top: 10px;
     }
     }
 
-    @media only screen and (min-width: 1366px) and (max-width:1366px) and (min-height:1024px) {
-      .profile_picture {
-        width:300px;
-        height:300px;
-        border:.3em solid white;
-        margin-top:80px;
-        margin-bottom:30px;
-      }
-         .image-panel {
-        max-width:333px;
-        max-height:300px;
-      }
+
+@media only screen and (min-width: 1366px) and (max-width:1366px) and (min-height:1024px) {
       .red-sec{
-        height: 1050px;
+        margin-top:-100px;
+        height: 1300px;
       }
       .modal-content{
         width: 100%;
       }
       .rowtitle h1{
-        font-size: 55px;
-        margin-bottom: 20px;
+        padding-top: 910px;
+        font-size: 70px;
       }
-      .rowabout h3{
-        font-size: 40px;
-        padding: 0 150px 150px;
-        margin-bottom: 40px;
-      }
-      .rowabout h4{
-        font-size: 30px;
-        padding: 0 150px 0 150px;
-      }
-      .rowabout{
-        margin-bottom: 50px;
-      }
+      
       .icons a{
         font-size: 25px;
-        letter-spacing: 20px;
+        letter-spacing: 10px;
+      }
+      .rowabout h4{
+        font-size: 35px;
+        text-align: justify;
+        width: 70%;
+        padding-top: 0px;
+        text-shadow: rgb(167, 165, 165) 0px 0px 2px;
+        /* backdrop-filter: blur(15px);
+        backdrop-filter: opacity(0.2);
+        background-color: rgba(255, 255, 255, 0.726);  */
+      }
+      .rowabout h3{
+        font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+        margin-top: -5px;
+        font-size: 45px;
+        padding: 15px 0 15px 0;
+      }
+      .icons{
+        margin-top: 10px;
       }
       }
 
 .font-style-cursive {
-    font-family: 'Pacifico', cursive;
+    font-family:'Futura,Trebuchet MS,Arial,sans-serif';
     text-shadow: 0 5px rgba(0,0,0,0.1);
 }
 
