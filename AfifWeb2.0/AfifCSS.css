@@ -14,7 +14,7 @@
   font-size: 80px;
 }
 .rowabout h4{
-  font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+  font-family: 'Futura', Arial, sans-serif;
   font-size: 24px;
   font-weight: 300;
   width: 520px;
@@ -22,7 +22,7 @@
   
 }
 .rowabout h3{
-  font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+  font-family: 'Futura', Arial, sans-serif;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 0 5px rgba(0,0,0,0.1);
@@ -78,7 +78,7 @@
   background-color: rgba(255, 255, 255, 0.726);  */
 }
 .rowabout h3{
-  font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+  font-family: 'Futura', Arial, sans-serif;
   margin-top: -5px;
   font-size: 25px;
 }
@@ -116,7 +116,7 @@
     background-color: rgba(255, 255, 255, 0.726);  */
   }
   .rowabout h3{
-    font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+    font-family: 'Futura', Arial, sans-serif;
     margin-top: -5px;
     font-size: 35px;
   }
@@ -162,7 +162,7 @@
   background-color: rgba(255, 255, 255, 0.726);  */
 }
 .rowabout h3{
-  font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+  font-family: 'Futura', Arial, sans-serif;
   margin-top: -5px;
   font-size: 35px;
   padding: 10px 0 10px 0;
@@ -199,7 +199,7 @@
     background-color: rgba(255, 255, 255, 0.726);  */
   }
   .rowabout h3{
-    font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+    font-family: 'Futura', Arial, sans-serif;
     margin-top: -5px;
     font-size: 45px;
     padding: 15px 0 15px 0;
@@ -238,7 +238,7 @@
       background-color: rgba(255, 255, 255, 0.726);  */
     }
     .rowabout h3{
-      font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+      font-family: 'Futura', Arial, sans-serif;
       margin-top: -5px;
       font-size: 45px;
       padding: 15px 0 15px 0;
@@ -277,7 +277,7 @@
         background-color: rgba(255, 255, 255, 0.726);  */
       }
       .rowabout h3{
-        font-family: 'Futura,Trebuchet MS,Arial,sans-serif';
+        font-family: 'Futura', Arial, sans-serif;
         margin-top: -5px;
         font-size: 45px;
         padding: 15px 0 15px 0;
@@ -312,6 +312,13 @@ margin:0px 13px;
 .fa-envelope-square:hover{
   color: rgb(219, 196, 81);
 
+}
+.fa-refresh{
+    cursor: pointer;
+    color: rgb(110, 110, 110);
+}
+.fa-refresh:hover{
+    color: rgb(0, 0, 0);
 }
 
 span {
